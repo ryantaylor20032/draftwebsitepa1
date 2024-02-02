@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>TideMovies</title>
+</head>
+<body>
+  <h1>Welcome to TideMovies! Happy watching, and Happy reviewing!</h1>
+  <img src="big-al-filejpg-78866fca10c40e1c.jpg" alt="Movie Image" width="500" height="500">
+
+  <div id="movieList"></div>
+  
+  <form id="addMovieForm">
+    <label for="movieName">Movie Name:</label>
+    <input type="text" id="movieName" required>
+
+    <label for="rating">Rating:</label>
+    <input type="number" id="rating" min="1" max="10" required>
+
+    <label for="releaseDate">Date Released:</label>
+    <input type="date" id="releaseDate" required>
+
+    <button type="submit">Add Movie</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
